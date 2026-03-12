@@ -32,16 +32,16 @@ MLOps_Assignment_2
 ├── Technical_Report.docx
 │
 └── screenshots
-├── dag_list.png
-├── dag_view.png
-├── val_fail_and_retry.png
-├── val_retry.png
-├── pipeline_success.png
-├── pipeline_graphs_view.png
-├── mlflow_run.png
-├── mlflow_runs.png
-├── model_info_mlflow.png
-└── model_registry.png
+              ├── dag_list.png
+              ├── dag_view.png
+              ├── val_fail_and_retry.png
+              ├── val_retry.png
+              ├── pipeline_success.png
+              ├── pipeline_graphs_view.png
+              ├── mlflow_run.png
+              ├── mlflow_runs.png
+              ├── model_info_mlflow.png
+              └── model_registry.png
 
 
 ---
@@ -198,5 +198,6 @@ If accuracy falls below this threshold, the model is rejected and the rejection 
 ## Conclusion
 
 This project demonstrates how Airflow and MLflow can be integrated to build a reliable and automated machine learning pipeline. The system ensures reproducibility, experiment tracking, and controlled model deployment.
+
 
 Such pipelines are essential in production machine learning systems where automation, monitoring
